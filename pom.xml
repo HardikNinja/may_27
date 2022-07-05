@@ -55,7 +55,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	<!--This is comment for git -->
 	<build>
 		<plugins>
 			<plugin>
