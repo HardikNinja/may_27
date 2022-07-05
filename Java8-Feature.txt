@@ -1,0 +1,47 @@
+  java 8 Feature
+	
+	FUNCTIONAL INTERFACES Defi ==> Functional interfaces are interfaces that ensure that they include only one abstract method.
+
+	::Functional Interface(Include default and static method)      https://www.geeksforgeeks.org/functional-interfaces-java/
+	::Lamda Expression 	(This is only possible with Functional Interface) ->  :: 	method () -> method definition
+	::stream 			[A sequence of elements supporting sequential and parallel aggregate operations]
+	::completablefutur
+	::java DateTime Api	
+	
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Since Java SE 1.8 onwards, there are many interfaces that are converted into functional interface. 
+All these interfaces are annotated with @FunctionalInterface. These interfaces are as follows – 
+
+		Runnable		–> This interface only contains the run() method.
+		Comparable 		–> This interface only contains the compareTo() method.
+		ActionListener 	–> This interface only contains the actionPerformed() method.
+		Callable 		–> This interface only contains the call() method.
+
+Q What are all functional interface introduce in java 8
+A. 	Function,
+	Predicate,
+	Consumer,
+	Supplier
+	
+	Function function = (t) -> t ;         ie.Function  is interface
+	System.out.println(function.apply(10));
+
+Q. 	What is Advantages of lamda expression?
+A.	Advantages
+		1. Avoid writing anonymous impl
+		2. it saves lot of code
+		3. The code is directly readable without interpretation.
+	DisAdvantages
+		1. Hard to use without IDE
+		2. Complex to Debug
+		
+Q. Few Stream method you use in your project?
+A.		1.	filter,
+		2.	forEaach
+		3.	sorted
+		4.	map
+		5.	count and many more
+		
+		     
+
+
